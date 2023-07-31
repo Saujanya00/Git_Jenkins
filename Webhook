@@ -1,0 +1,6 @@
+This file is created to test the Webhook scheduling.
+Here we are trying to schedule our jobs only when their is a change to the code in the remote repo instead of checking the repo at scheduled intervals like Poll SCM.
+Process: 1. Go to remote repo settings and Webhook
+         2. Add Webhook --->Give the public IP of jenkins server -----> URL: http://public_ip:8080/github-webhook
+         3. Content type --->application/json
+         4. Click Add webhook
