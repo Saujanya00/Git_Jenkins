@@ -1,4 +1,4 @@
-This file is created to test the Webhook scheduling.
+This file is created to test the Webhook scheduling. Here the Github will send a implicit notification to the Jenkins server when ever it detects a commited change in the repo.
 Here we are trying to schedule our jobs only when their is a change to the code in the remote repo instead of checking the repo at scheduled intervals like Poll SCM.
 Process: 1. Go to remote repo settings and Webhook
          2. Add Webhook --->Give the public IP of jenkins server -----> URL: http://public_ip:8080/github-webhook
