@@ -1,1 +1,1 @@
-asdfgh
+This file will be committed and pushed to the remote repo, that in turn will trigger the Jenkins to build the job without our interferece since we are using Poll SCM option. Poll SCM will check the remote repo based on the time interval specifed. In our case, we are mentioning * * * * * which means Jenkins will check the remote repo for every hr,min,day[D[D[Dsec[B,day.
