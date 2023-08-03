@@ -1,7 +1,6 @@
 def gitDownload(repo)
 {
-  git "https://github.com/intelliqittrainings/${repo}.git"
-}
+  git "https://github.com/Saujanya00/${repo}.git" 
 def mavenBuild()
 {
   sh 'mvn package'
