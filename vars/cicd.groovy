@@ -8,5 +8,5 @@ def mavenBuild()
 }
 def tomcatDeploy(ip,context)
 {
-  deploy adapters: [tomcat9(credentialsId: '00ba1864-f667-4649-b5fb-bbc5955ebc83', path: '', url: "''http://'+ ${ip}'")], contextPath: ${context}, war: '**/*.war'
+  deploy adapters: [tomcat9(credentialsId: '00ba1864-f667-4649-b5fb-bbc5955ebc83', path: '', url: "'http://'+ ${ip}")], contextPath: ${context}, war: '**/*.war'
 }
